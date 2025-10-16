@@ -50,43 +50,43 @@ function Conferir() {
     // Conferindo a primeira pergunta
     if (o1p1.checked) {
         r1p1.style.color = 'red'
-        r3p1.style.color = 'green'
+        r3p1.style.color = 'yellow'
     } else if (o2p1.checked) {
         r2p1.style.color = 'red'
-        r3p1.style.color = 'green'
+        r3p1.style.color = 'yellow'
     } else if (o3p1.checked) {
-        r3p1.style.color = 'green'
+        r3p1.style.color = 'yellow'
     } else if (o4p1.checked) {
         r4p1.style.color = 'red'
-        r3p1.style.color = 'green'
+        r3p1.style.color = 'yellow'
     }
 
     // Conferindo a segunda pergunta
     if (o1p2.checked) {
         r1p2.style.color = 'red'
-        r2p2.style.color = 'green'
+        r2p2.style.color = 'yellow'
     } else if (o2p2.checked) {
-        r2p2.style.color = 'green'
+        r2p2.style.color = 'yellow'
     } else if (o3p2.checked) {
         r3p2.style.color = 'red'
-        r2p2.style.color = 'green'
+        r2p2.style.color = 'yellow'
     } else if (o4p2.checked) {
         r4p2.style.color = 'red'
-        r2p2.style.color = 'green'
+        r2p2.style.color = 'yellow'
     }
 
     // Conferindo a terceira pergunta
     if (o1p3.checked) {
         r1p3.style.color = 'red'
-        r4p3.style.color = 'green'
+        r4p3.style.color = 'yellow'
     } else if (o2p3.checked) {
         r2p3.style.color = 'red'
-        r4p3.style.color = 'green'
+        r4p3.style.color = 'yellow'
     } else if (o3p3.checked) {
         r3p3.style.color = 'red'
-        r4p3.style.color = 'green'
+        r4p3.style.color = 'yellow'
     } else if (o4p3.checked) {
-        r4p3.style.color = 'green'
+        r4p3.style.color = 'yellow'
     }
 
     // Conferindo a quarta pergunta
